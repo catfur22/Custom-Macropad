@@ -2806,7 +2806,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XIAO_RP2040:MOUDLE-SEEEDUINO-XIAO"
+		(property "Footprint" "footprints:XIAO-Generic-Hybrid-14P-2.54-21X17.8MM"
 			(at 127 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3003,7 +3003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Horizontal"
 			(at 142.24 137.16 0)
 			(hide yes)
 			(show_name no)
