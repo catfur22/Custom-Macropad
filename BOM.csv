@@ -3,4 +3,5 @@ Microcontroller,U1,1,Seeed Studio,102010428,XIAO RP2040 development board,DigiKe
 Mechanical Switch,SW1-SW8,8,CHERRY,MX2A-G1NW,Brown tactile mechanical keyboard switch,DigiKey,1644-MX2A-G1NW-ND,1.75,14.00,https://www.digikey.com/en/products/detail/cherry-americas-llc/MX2A-G1NW/21738433
 Joystick Module,JST1,1,User-supplied,User-supplied,Two-axis joystick module supplied by the project owner,User-supplied,User-supplied,0.00,0.00,
 Right Angle Female Header,J1,1,Sullins Connector Solutions,PPPC051LGBN-RC,5-position 2.54mm right-angle female socket header,DigiKey,S5480-ND,0.59,0.59,https://www.digikey.com/en/products/detail/sullins-connector-solutions/PPPC051LGBN-RC/775938
-TOTAL,,,,,,,,,24.48,
+Custom PCB,PCB1,1,JLCPCB,Custom PCB,Custom fabricated navigation controller PCB,JLCPCB,Custom order,4.00,4.00,https://jlcpcb.com/
+TOTAL,,,,,,,,,54.56,
