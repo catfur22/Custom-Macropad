@@ -1,0 +1,5 @@
+Item,Designator,Quantity,Manufacturer,Manufacturer Part Number,Description,Supplier,Supplier Part Number,Notes
+Microcontroller,U1,1,Seeed Studio,102010428,Seeed Studio XIAO RP2040 development board,TBD,,Selected controller
+Mechanical Switch,SW1-SW8,8,CHERRY,MX2A-G1NW,MX2A Brown tactile mechanical keyboard switch,DigiKey,,5-pin PCB mount
+Joystick Module,JST1,1,OSEPP,TBD,2-axis joystick module with pushbutton and 5-pin interface,Micro Center,,3.3V operation
+Right Angle Female Header,J1,1,Sullins Connector Solutions,PPPC051LGBN-RC,1x5 right-angle female socket header 2.54mm pitch,DigiKey,S5480-ND,Through-hole
