@@ -2,18 +2,15 @@
 #include <Mouse.h>
 #include <Keyboard.h>
 
-// Joystick pins
 const int JOY_X = D0;
 const int JOY_Y = D1;
 const int JOY_SW = D2;
 
-// Eight navigation buttons
 const int buttons[8] = {
   D3, D4, D5, D6,
   D7, D8, D9, D10
 };
 
-// Button assignments
 enum ButtonAction {
   PAN_LEFT,
   PAN_RIGHT,
@@ -77,7 +74,6 @@ void calibrateJoystick() {
   long totalX = 0;
   long totalY = 0;
 
-  // Leave joystick centered during startup
   for (int i = 0; i < 100; i++) {
     totalX += analogRead(JOY_X);
     totalY += analogRead(JOY_Y);
@@ -115,7 +111,6 @@ void handleJoystick() {
   int moveX = joystickMovement(xValue, centerX);
   int moveY = joystickMovement(yValue, centerY);
 
-  // Invert Y so stick movement feels natural
   moveY = -moveY;
 
   if (moveX != 0 || moveY != 0) {
@@ -206,10 +201,8 @@ void setup() {
 
 void loop() {
 
-  // Joystick movement
   handleJoystick();
 
-  // Read all eight buttons
   for (int i = 0; i < 8; i++) {
     bool pressed = (digitalRead(buttons[i]) == LOW);
 
